@@ -8,6 +8,6 @@ public class MyApp {
         context.register(AppConfig.class);
         context.refresh();
 
-        ((DiceGame)context.getBean("diceGame")).play();
+        ((DiceGame)context.getBean("dice")).play();
     }
 }
